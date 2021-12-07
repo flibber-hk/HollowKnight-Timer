@@ -18,7 +18,7 @@ namespace HKTimer {
 
         public void InitDisplay() {
             timerCanvas = CanvasUtil.CreateCanvas(UnityEngine.RenderMode.ScreenSpaceOverlay, new Vector2(1920, 1080));
-            CanvasUtil.CreateFonts();
+            // CanvasUtil.CreateFonts();
             frameDisplay = CanvasUtil.CreateTextPanel(
                 timerCanvas,
                 this.TimerText(),

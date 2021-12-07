@@ -47,7 +47,7 @@ namespace HKTimer {
         public void InitDisplay() {
             if(this.timer != null && this.timer.timerCanvas != null) {
                 var timerCanvas = this.timer.timerCanvas;
-                CanvasUtil.CreateFonts();
+                // CanvasUtil.CreateFonts();
                 this.pb = TimeSpan.Zero;
                 this.pbDisplay = CanvasUtil.CreateTextPanel(
                     timerCanvas,
